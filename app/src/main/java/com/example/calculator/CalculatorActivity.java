@@ -33,11 +33,11 @@ public class CalculatorActivity extends AppCompatActivity {
         textView.setText("");
     }
 
-    public void clearText(){
+    public void clearText(View view){
         textView.setText("");
     }
 
-    public void equalAll(){
+    public void equalAll(View view){
         String result = textView.getText().toString();
         num2 = Integer.parseInt(result);
         switch( operator ) {
